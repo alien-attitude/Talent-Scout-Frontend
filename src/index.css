@@ -1,0 +1,16 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+
+@import "tailwindcss";
+
+@layer base {
+  /* Optional: custom base styles */
+}
+
+@layer components {
+  /* Optional: custom component classes */
+}
+
+@layer utilities {
+  /* Optional: custom utility classes */
+}
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
