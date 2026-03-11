@@ -28,7 +28,7 @@ export function ForgotPasswordPage() {
             // Show OTP in alert — dev/testing only
             // In production this would be sent via email/SMS instead
             alert(
-                `Your OTP is: ${response.otp}\n\nThis code expires in ${response.expiresInMinutes} minutes.\n\nThis alert will close automatically.`
+                `Your OTP is: ${response.otp}\n\nThis code expires in ${response.expiresInSeconds} seconds.\n`
             );
 
             // Redirect to OTP verification page, passing email via state

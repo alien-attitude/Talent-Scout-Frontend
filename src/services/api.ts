@@ -42,7 +42,7 @@ export async function forgotPassword(email: string): Promise<{
     success: boolean;
     otp: string;
     email: string;
-    expiresInMinutes: number;
+    expiresInSeconds: number;
 }> {
     const { data } = await api.post("/auth/forgot-password", { email });
     return data;

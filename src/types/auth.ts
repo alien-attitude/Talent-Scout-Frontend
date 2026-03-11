@@ -42,7 +42,7 @@ export interface AuthResponse {
 export interface AuthContextType {
     employer:  Employer | null;
     loading:   boolean;
-    isAuthenticated: boolean;
+    isAuthenticated: boolean
     signUp:    (data: SignUpPayload) => Promise<void>;
     logIn:     (data: LoginPayload) => Promise<void>;
     logOut:    () => Promise<void>;
